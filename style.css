@@ -13,8 +13,20 @@ div {
 	border-bottom: 1px solid #000;
 }
 
+p.text {
+    width: 420px
+}
+
+.clearfix {
+    width: 100%;
+    height: 1px;
+    display: block;
+    clear: both;
+    background-color: black;
+}
+
 .photo {
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 .title {
@@ -22,11 +34,12 @@ div {
     font-size: 24px;
 }
 
-.skyline {
-    width: 950px;
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 200px;
-    padding: 10px;
-    margin: 10px auto 10ps auto;
+    width: 950px;
 }
 
 ul {
@@ -42,10 +55,11 @@ li {
     margin: 0px 10px;
 }
 
-p {
-	width: 600px;
-	padding: 15px;
-	margin: 0px auto 0px auto;
+p.center {
+    text-align: center;	
+}
+
+p.left {
     text-align: left;
 }
 
@@ -53,11 +67,15 @@ a {
     color: #000000;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 6px 18px 5px 18px;
+    padding: 5px 10px 5px 10px;
 }
 
 a:hover {
     color: #cc3333;
     background-color: #ffffff;
 }
+
+
+
+
     
