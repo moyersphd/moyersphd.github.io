@@ -1,60 +1,64 @@
-h1 {
-    font-family: Palatino; serif;
-}
-
 body {
-    background-color: azure;
-    font-family: Palatino; serif;
-    margin: 50px;
+	font-size: 80%;
+	font-family: 'Coming Soon';
+	letter-spacing: 0.15em;
+	background-color: #efefef;
 }
 
-.banner img {
-    width: 20%;
-    height: auto;
+div {
+	width: 720px;
+	padding: 15px;
+	margin: 0px auto 0px auto;
+	border-top: 2px solid #000;
+	border-bottom: 1px solid #000;
 }
 
-.button {
-    /*Basic Button Style*/
-    
-    display: block;
-    height: 20px;
-    width: 200px;
-    background: #F6CEEC;
-    border width: 2px;
-    border: #FFFFFF;
-    padding: 10px 0;
-    
-    /*Text Style*/
-    
-    color: black;
+.title {
     text-align: center;
-    font: bold 3.2em/100px "Arial", sans serif
-        
-    /*Link Styling*/
-
-    -webkit-border-radius: 50px;
-    -khtml-border-radius: 50px;
-    -moz-border-radius: 50px;
-    border-radius: 50px;
-     
-
 }
 
-a.button {
+div img {
+    width: 30%;
+    height: 30%;
+    margin: 10px auto 25px auto;
+}
+
+img {
+    width: 950px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px auto 10ps auto;
+}
+
+ul {
+    width: 570px;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    border-bottom: 1px solid #000;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin: 0px 10px;
+}
+
+p {
+	width: 600px;
+	padding: 15px;
+	margin: 0px auto 0px auto;
+    text-align: center;
+}
+
+a {
+    color: #000000;
+    text-transform: uppercase;
     text-decoration: none;
+    padding: 6px 18px 5px 18px;
 }
 
-nav {
-    margin: 0 auto;}
-
-nav ul li {
-    display: inline-block;
+a:hover {
+    color: #cc3333;
+    background-color: #ffffff;
 }
-
-nav ul li +li {
-    margin-left: 10px;
-}
-
-nav ul li a {
-    color:black;
-}
+    
