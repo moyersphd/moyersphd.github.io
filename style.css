@@ -1,6 +1,6 @@
 body {
 	font-size: 80%;
-	font-family: 'Coming Soon';
+	font-family: 'Coming Soon', serif;
 	letter-spacing: 0.15em;
 	background-color: #efefef;
 }
@@ -13,17 +13,16 @@ div {
 	border-bottom: 1px solid #000;
 }
 
+.photo {
+    margin: 0 auto;
+}
+
 .title {
     text-align: center;
+    font-size: 24px;
 }
 
-div img {
-    width: 30%;
-    height: 30%;
-    margin: 10px auto 25px auto;
-}
-
-img {
+.skyline {
     width: 950px;
     height: 200px;
     padding: 10px;
@@ -47,7 +46,7 @@ p {
 	width: 600px;
 	padding: 15px;
 	margin: 0px auto 0px auto;
-    text-align: center;
+    text-align: left;
 }
 
 a {
