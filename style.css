@@ -45,9 +45,10 @@ div img.photo {
 }
 
 .reflection {
-    width: 420px;
+    width: 950px;
     padding: 20px;
     margin: 20px auto 20px auto;
+    text-align: center;
 }
 
 img.center {
@@ -58,14 +59,14 @@ img.center {
     width: 950px;
 }
 
-ul {
+.nav ul {
     width: 900px;
     padding: 15px;
     margin: 0px auto 0px auto;
     text-align: center;
 }
 
-li {
+.nav li {
     display: inline;
     margin: 0px 10px;
     /* Rectangle 2: */
@@ -81,6 +82,15 @@ p.center {
 p.left {
     
     text-align: left;
+}
+
+.textcontainer {
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 950px;
+    text-align: center;
 }
 
 a {
