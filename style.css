@@ -1,0 +1,130 @@
+body {
+	font-size: 80%;
+	font-family: sans-serif;
+	letter-spacing: 0.15em;
+	background-color: #efefef;
+}
+
+section {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 650px;
+}
+
+.nav ul {
+    width: 900px;
+    padding: 15px;
+    margin: 0px auto 0px auto;
+    text-align: center;
+}
+
+.nav li {
+    display: inline;
+    margin: 0px 10px;
+    /* Rectangle 2: */
+    background: #551A8B;
+    border: 1px solid #b19cd9;
+    border-radius: 32px;
+}
+    
+.Craver{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 275px;
+    width: 450px;
+}
+
+.quote {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 650px;
+}
+
+.quote1 {
+    font-size: 48px;
+}
+
+.myphoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 950px;
+}
+
+img.syllabus {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 900px;
+    width: 750px;
+}
+
+.plan {
+    display: block;
+    height: 900px;
+    width: 750px;
+}
+
+p.center {
+    text-align: center;	
+    font-size: 24px;
+}
+
+.clearfix {
+    width: 75%;
+    height: 1px;
+    display: block;
+    clear: both;
+    margin: 20px auto 20px auto;
+    background-color: black;
+}
+
+.reflection {
+    width: 950px;
+    padding: 20px;
+    margin: 20px auto 20px auto;
+    text-align: center;
+}
+
+
+.textcontainer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 950px;
+    text-align: center;
+}
+
+.quote {
+    font-size: 20px;
+}
+
+a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+}
+
+a:hover {
+    color: #b19cd9;
+    background-color: ##2A79C4;
+}
+
+
+
+
+    
